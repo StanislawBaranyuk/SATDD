@@ -1,0 +1,71 @@
+#RSection {
+    margin-left: 9%;
+}
+
+.Content {
+    font-size: 2em;
+    color: #009999;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border: dashed 2px whitesmoke;
+}
+
+.BetCont {
+    width: 20px;
+}
+
+.Content:hover {
+    position: relative;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border: dashed 4px #009999;
+
+}
+
+.ContentBlockName {
+    color: whitesmoke;
+    height: 100%;
+    display: block;
+    margin-top: 0%;
+}
+
+.ContentBlockName:hover {
+    height: 100%;
+    display: block;
+    margin-top: 0%;
+    color: whitesmoke;
+}
+
+#ContentBlock1 {
+    background-image: url("img/Rols.jpg");
+    background-size: cover;
+}
+
+#ContentBlock1:hover {
+    cursor: pointer;
+    background-size: cover;
+}
+
+#ContentBlock2 {
+    background-image: url("img/Bike.jpg");
+    background-size: cover;
+}
+
+#ContentBlock2:hover {
+    cursor: pointer;
+    background-size: cover;
+}
+
+#ContentBlock3 {
+    background-image: url("img/Project.jpg");
+    background-size: cover;
+}
+
+#ContentBlock3:hover {
+    cursor: pointer;
+    background-size: cover;
+}
