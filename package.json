@@ -1,0 +1,23 @@
+{
+  "name": "stani",
+  "version": "0.0.1",
+  "description": "First application",
+  "main": "server.js",
+  "scripts": {
+    "test": "SSS",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanislawBaranyuk/SATDD.git"
+  },
+  "keywords": [
+    "StN"
+  ],
+  "author": "Stanislaw",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/StanislawBaranyuk/SATDD/issues"
+  },
+  "homepage": "https://github.com/StanislawBaranyuk/SATDD#readme"
+}

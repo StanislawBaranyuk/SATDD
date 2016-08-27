@@ -1,0 +1,49 @@
+.wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.inner-wrapper,
+.blur {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.inner-wrapper {
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+.blur {
+    z-index: 99;
+    background-image: url("style/img/Rols.jpg");
+    background-size: cover;
+    backgroun-repeat: no-repeat;
+}
+
+.inner-wrapper {
+    z-index: 100; /* текст не размыт */
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+.blur {
+    z-index: 99; /* изображение размыто */
+    background-image: url("style/img/Rols.jpg");
+    background-size: cover;
+    backgroun-repeat: no-repeat;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+    filter: url('blur.svg#blur'); /* путь к svg */
+}
+

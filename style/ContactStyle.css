@@ -1,0 +1,279 @@
+body {
+    /*background-repeat: no-repeat;*/
+    /*background-image: url("https://unsplash.it/1500/1500/?random");*/
+    background-color: whitesmoke;
+}
+
+#HeadContact {
+    width: 100%;
+    height: 100px;
+    background-color: #013a67;
+}
+
+#HeadContactIn {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 37%;
+    /*border: solid 2px whitesmoke;*/
+    width: 30%;
+    height: 50px;
+    background-color: #013a67;
+}
+
+.HedLink {
+    font-size: 2em;
+}
+
+#HeadLinkAboutMe {
+    text-decoration: none;
+}
+
+#HeadLinkAboutMe:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#HeadLinkIn {
+    text-decoration: none;
+    border-right: solid 2px whitesmoke;
+    border-left: solid 2px whitesmoke;
+}
+
+#HeadLinkIn:hover {
+    cursor: default;
+    color: #337ab7;
+    text-decoration: none;
+    border-right: solid 2px whitesmoke;
+    border-left: solid 2px whitesmoke;
+}
+
+#HeadLinkHome {
+    text-decoration: none;
+
+}
+
+#HeadLinkHome:hover {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.Soc {
+    float: left;
+    width: 30px;
+    height: 30px;
+    /*border: solid 2px black;*/
+}
+
+#ContactSoc {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -2.6%;
+    width: 150px;
+    height: 30px;
+
+ }
+
+
+#Vk {
+    cursor: pointer;
+    background-size: cover;
+    /*margin-left: 50px;*/
+    background-image: url("img/Vk.jpg");
+}
+
+#Vk:hover {
+    cursor: pointer;
+    background-size: cover;
+    /*margin-left: 50px;*/
+    background-image: url("img/Vk2.jpg");
+}
+
+#Facebook {
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("img/Facebook.jpg");
+}
+
+#Facebook:hover {
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("img/Facebook2.jpg");
+}
+
+#Twitter {
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("img/Twitter.jpg");
+}
+
+#Twitter:hover {
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("img/Twitter2.jpg");
+}
+
+#YouTube {
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("img/YouTube.jpg");
+}
+
+#YouTube:hover {
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("img/YouTube2.jpg");
+}
+
+#sect {
+    z-index: 0;
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    height: 525px;
+    /*border: solid 2px black;*/
+}
+
+#ContactName {
+    margin-top: 10%;
+}
+
+#ContactEmail {
+    position: relative;
+    margin-top: 2%;
+}
+
+#ContactText {
+    resize: none;
+    position: relative;
+    margin-top: 4%;
+    height: 200px;
+}
+
+#btn:hover  {
+    border: dashed 2px #2aabd2;
+    margin-top: 2%;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+#btn{
+    border: none;
+    margin-top: 2%;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+.ribbon {
+    margin-top: 8%;
+    margin-left: 10%;
+    position: absolute;
+    width: 80%;
+    min-width: 300px;
+
+}
+H1 {
+    margin: 0 1em;
+    background: #013a67;
+    font-weight: normal;
+    line-height: 1.7em;
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    box-shadow: 0 3px 5px rgba(0,0,0,.8);
+    color: #FFF;
+}
+.ribbon:before,
+.ribbon:after,
+H1:before,
+H1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.ribbon:before,
+.ribbon:after {
+    top: 1.4em;
+    z-index: -2;
+    border: 1.6em solid #013a67;
+}
+.ribbon:before {
+    left: 0;
+    border-left-color: transparent;
+}
+.ribbon:after {
+    right: 0;
+    border-right-color: transparent;
+}
+H1:before,
+H1:after {
+    top: 1.7em;
+    z-index: -1;
+    border: .3em solid #4ea7c3;
+    border-bottom-color: transparent;
+}
+H1:before {
+    left: 1em;
+    border-left-color: transparent;
+}
+H1:after {
+    right: 1em;
+    border-right-color: transparent;
+}
+BODY {
+    background: whitesmoke;
+}
+
+footer {
+    border-top: dashed 5px whitesmoke;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    left: 0; bottom: 0;
+    color: #fff;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 5%;
+    /*margin-left: 35%;*/
+}
+
+#footerbtn {
+    width: 100%;
+}
+
+#footermenu {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+}
+
+.menu1 {
+    background-color: white;
+}
+
+.menu1:active {
+    background-color: white;
+}
+
+#copiright {
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    position: absolute;
+}

@@ -23,6 +23,17 @@ header {
     margin-top: 0%;
 }
 
+#HomeSectionContent {
+    position: relative;
+    padding: 150px 0 0 0;
+    height: 150px;
+    width: 100%;
+    border-bottom: dashed 3px whitesmoke;
+    background-image: url('img/1back.jpg');
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
+
 #MyPhoto {
     position: absolute;
     left: 38%;
@@ -51,7 +62,29 @@ header {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#MyNameContent {
+    background-color: whitesmoke;
+    position: absolute;
+    left: 48%;
+    margin-left: -225px;
+    height: 170px;
+    width: 500px;
+    margin-top: -86px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: dashed 2px #009999;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 #hrMyName {
+    width: 50%;
+    background: #009999;
+    /*border: double 2px whitesmoke;*/
+    height: 2px;
+    margin-top: -0px;
+}
+
+#hrMyNameContent {
     width: 50%;
     background: #009999;
     /*border: double 2px whitesmoke;*/
@@ -63,7 +96,17 @@ header {
     font-size: 3em;
 }
 
+#p1MyNameContent {
+    font-size: 3em;
+}
+
 #p2MyName {
+    font-size: 2.5em;
+    margin-top: -7px;
+    letter-spacing: 5px;
+}
+
+#p2MyNameContent {
     font-size: 3.4em;
     margin-top: -7px;
     letter-spacing: 5px;
@@ -80,14 +123,17 @@ header {
 }
 
 #AboutMe {
-    margin-left: 40%;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 45%;
     border-bottom: solid 2px #009999;
     /*float: right;*/
     width: 121px;
 }
 
 #AboutMe:hover {
-    margin-left: 40%;
+    position: absolute;
+    margin-left: 45%;
     /*float: left;*/
     width: 121px;
     border-bottom: solid 0px #009999;
@@ -95,6 +141,9 @@ header {
 }
 
 #Chat {
+    margin-left: 55%;
+    margin-top: -100px;
+    position: absolute;
     border-left: solid 2px #009999;
     border-bottom: solid 2px #009999;
     /*float: right;*/
@@ -102,6 +151,9 @@ header {
 }
 
 #Chat:hover {
+    margin-left: 55%;
+    margin-top: -100px;
+    position: absolute;
     /*float: right;*/
     width: 80px;
     border-bottom: solid 0px #009999;

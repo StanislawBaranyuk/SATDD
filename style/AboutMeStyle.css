@@ -1,0 +1,225 @@
+body {
+    background-color: whitesmoke;
+}
+
+#HomeSection {
+    position: relative;
+    padding: 200px 20% 10% 20%;
+    height: 400px;
+    width: 100%;
+    border-bottom: dashed 3px whitesmoke;
+    background-image: url('img/1back.jpg');
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
+
+#MeuContainer {
+    background-color: black;
+    height: 50px;
+    opacity: 0.5;
+}
+
+#menu {
+    font-size: 2em;
+}
+
+#MyPhoto {
+    position: absolute;
+    left: 20%;
+    margin-left: -225px;
+    height: 250px;
+    width: 250px;
+    margin-top: -125px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: dashed 2px #009999;
+    border-radius: 100%;
+    background-image: url("img/myphoto.jpg");
+}
+
+#MyPhoto:hover {
+    position: absolute;
+    left: 20%;
+    margin-left: -225px;
+    height: 300px;
+    width: 250px;
+    margin-top: -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: dashed 2px #009999;
+    border-radius: 0%;
+    background-image: url("img/myphoto.jpg");
+}
+
+#MyName {
+    background-color: whitesmoke;
+    position: absolute;
+    left: 40%;
+    margin-left: -225px;
+    height: 170px;
+    width: 40%;
+    margin-top: -86px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: dashed 2px #009999;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#hrMyName {
+    width: 50%;
+    background: #009999;
+    /*border: double 2px whitesmoke;*/
+    height: 2px;
+    margin-top: -0px;
+}
+
+#p1MyName {
+    font-size: 3em;
+}
+
+#p2MyName {
+    font-size: 2.5em;
+    margin-top: -7px;
+    letter-spacing: 5px;
+}
+
+/*#VertLine1 {*/
+    /*box-shadow: 3px 0 0 rgba(0,0,0,0.5);*/
+    /*position: absolute;*/
+     /*background-color: whitesmoke;*/
+     /*margin-top: -24px;*/
+     /*margin-left: 43%;*/
+     /*width: 100%;*/
+     /*height: 50px;*/
+    /*!*border-radius: 50%;*!*/
+    /*!*border-left: solid 3px #009999;*!*/
+    /*!*border-bottom: solid 7px #009999;*!*/
+ /*}*/
+
+#AboutMeTXT {
+    width: 50%;
+    margin-left: 2%;
+
+    cursor: pointer;
+    text-shadow: 2px 0 0 rgba(0,0,0,0.5);
+    border-bottom: dashed 2px whitesmoke;
+    color: whitesmoke;
+}
+
+#AboutMeTXT:hover {
+    cursor: pointer;
+    text-shadow: 2px 0 0 rgba(0,0,0,0.5);
+    border-bottom: solid 2px whitesmoke;
+    color: whitesmoke;
+}
+
+#AboutMeTXT2 {
+    cursor: n-resize;
+    text-shadow: 2px 0 0 rgba(0,0,0,0.5);
+    /*border-bottom: solid 2px whitesmoke;*/
+
+    color: whitesmoke;
+}
+
+
+
+#AboutMeTXT3 {
+    cursor: pointer;
+    margin-left: 48%;
+    width: 50%;
+    text-shadow: 2px 0 0 rgba(0,0,0,0.5);
+    border-top: dashed 2px whitesmoke;
+    color: whitesmoke;
+}
+
+#AboutMeTXT3:hover {
+    cursor: pointer;
+    text-shadow: 2px 0 0 rgba(0,0,0,0.5);
+    border-top: solid 2px whitesmoke;
+    border-bottom: solid 0px whitesmoke;
+
+    color: whitesmoke;
+}
+
+
+#menu {
+    opacity: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    margin-top: -150px;
+    margin-left: 45%;
+    position: absolute;
+    border: dashed 3px #009999;
+    background-color:whitesmoke;
+    width: 31.5%;
+    height: 300px;
+}
+
+#menuin {
+    border: dashed 3px whitesmoke;
+    margin-top: 25px;
+    margin-left: 23px;
+    width: 87%;
+    height: 150px;
+    background-color: #009999;
+}
+
+#MenuP {
+    width: 200px;
+    font-size: 2.5em;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 90px;
+}
+
+#HrAboutMe {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 38.5%;
+    background-color: black;
+    border: none;
+    width: 10%;
+    height: 2px;
+}
+
+#HrAboutMe2 {
+    margin-left: 51.5%;
+    position: absolute;
+    margin-top: -10px;
+    background-color: black;
+    border: none;
+    width: 10%;
+    height: 2px;
+}
+
+#AboutMeIcon {
+    margin-top: 0%;
+    margin-left: 49.5%;
+    position: relative;
+
+}
+
+#AboutMeIconBlock {
+    height: 100px;
+    /*border: solid 2px black;*/
+}
+
+#InformationMe {
+    text-align: center;
+    width: 63%;
+
+    font-size: 1.5em;
+}
+
+#ArticleBlock {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 26.7%;
+    /*border: solid 2px black;*/
+
+}
+
+#menutxtblock {
+    margin-top: 10px;
+    margin-left: -65px;
+}
